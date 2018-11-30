@@ -1,3 +1,0 @@
-jQuery(function ( $ ) {
-	$("#elementor-panel-footer-templates").addClass('OKKKKKKKK');
-});
