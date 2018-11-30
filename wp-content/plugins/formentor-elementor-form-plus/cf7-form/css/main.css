@@ -1,0 +1,94 @@
+.mycf7form{
+    
+  //  padding: 5px;
+     display: flex;
+flex-wrap: wrap;
+    }
+
+.mycf7form .wpcf7{
+    direction: ltr;
+}
+.rtl .mycf7form .wpcf7{
+    direction: rtl;
+}
+.mycf7form .wpcf7{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mycf7fild .wpcf7-form-control{
+    margin-bottom: 0px;
+}
+.mycf7fild button{
+    -webkit-appearance: button-bevel!important;
+        line-height: normal!important;
+  //  height: 100%;
+    width: 100%;
+     //   padding: 15px!important;
+}
+.mycf7fild.hidden{
+    display: none;
+}
+.mycf7form .wpcf7-form-control {
+  //  padding: 15px;
+}
+
+.mycf7form .wpcf7-submit{
+    height: 100%
+}
+.mycf7form .wpcf7 .wpcf7-form{
+        display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mycf7fild.width50{
+   width: 50%;
+}
+.mycf7fild.width25{
+   width: 25%;
+}
+.mycf7fild.width100{
+   width: 100%;
+}
+.mycf7fild.width75{
+   width: 75%;
+}
+@media (max-width: 767px){
+.mycf7fild.width_mobile50{
+   width: 50%;
+}
+.mycf7fild.width_mobile25{
+   width: 25%;
+}
+.mycf7fild.width_mobile100{
+   width: 100%;
+}
+.mycf7fild.width_mobile75{
+   width: 75%;
+}
+}
+@media (max-width: 1024px){
+.mycf7fild.width_tablet50{
+   width: 50%;
+}
+.mycf7fild.width_tablet25{
+   width: 25%;
+}
+.mycf7fild.width_tablet100{
+   width: 100%;
+}
+.mycf7fild.width_tablet75{
+   width: 75%;
+}
+}
+.mycf7fild {
+    padding: 10px;
+        margin-top: auto;
+    display: flex;
+}
+.mycf7fild select, .mycf7fild input , .mycf7fild textarea , .mycf7fild label{
+    width: 100%;
+ // height: 100;
+}
